@@ -1,0 +1,37 @@
+body{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    gap: 15px;
+}
+
+/* Stil für den "In den Warenkorb"-Button */
+button#add-to-cart {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 250px;
+  
+}
+
+button#add-to-cart:hover {
+  background-color: #0062cc;
+}
+
+/* Stil für das Eingabefeld */
+input#quantity {
+  border: 1px solid #ced4da;
+  border-radius: 3px;
+  padding: 5px;
+  width: 50px;
+  text-align: center;
+}
+
+/* Stil für das Eingabefeld, wenn es grün wird */
+input#quantity.green {
+  border-color: green;
+  color: green;
+}
